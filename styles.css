@@ -1,0 +1,133 @@
+/* Family: ://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 70%;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(36, 13, 13);
+    color:white;
+
+}
+.navbar .imagec{
+    font-size: 28px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:10px;
+    /* padding:10px 160px; */
+}
+.navbar .list{
+    padding:10px;
+}
+.navbar .list ul{
+    display:flex;
+}
+
+.navbar .list .item{
+    font-size: 18px;
+    list-style-type: none;
+    padding:10px 25px;
+}
+.navbar .list .item a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .list .item a:hover{
+    color:#29d9d5;
+    /* color:white; */
+}
+.navbar .button .btn-blue{
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left:80px;
+    margin-top:10px;
+}
+
+.navbar .button .btn-blue a{
+    color:#29d9d5;
+    background-color: rgb(36, 13, 13);
+    font-size:24px; 
+    border:2px solid #29d9d5;
+    display:inline-block;
+    /* background: var(--primary-color); */
+    /* color:#fff; */
+    padding:2px 1.5rem;
+    cursor:pointer;
+    font-size:1.1rem;
+    border-radius:30px;
+    text-decoration: none;
+}
+
+.navbar .button .btn-blue a:hover{
+    color:rgb(36, 13, 13);
+    background-color:#29d9d5;
+    font-size:24px; 
+    border:2px solid #29d9d5;
+    display:inline-block;
+    /* background: var(--primary-color); */
+    /* color:#fff; */
+    padding:2px 1.5rem;
+    cursor:pointer;
+    font-size:1.1rem;
+    border-radius:30px;
+    text-decoration: none;
+}
+/* navbar */
+.para{
+    background-color: rgba(211, 206, 206, 1);
+    margin: 20px 15%;
+    font-size: 15px;
+    padding:10px;
+    border-radius:30px;
+}
+.para .content .blue{
+    color:rgb(43, 43, 226);
+}
+/* para */
+.image-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.image-grid{
+    margin:10px 16%;
+}
+.image-grid .image img{
+    border-radius: 30px;
+    padding:7px;
+}
+.image-grid .image img{
+    width:360px;
+    height:230px;
+
+}
+.image-grid .image:hover img{
+    filter: grayscale(95%);
+    opacity:0.5;
+}
+.image-grid .image .icon{
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    /* transform: translate(0, s0); */
+    
+}
+.image-grid .image:hover .icon{
+    opacity:1;
+}
+/* banner */
+
+.banner img{
+    width:;
+    height:150px;
+}
